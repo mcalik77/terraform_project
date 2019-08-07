@@ -17,3 +17,4 @@ output "private_sec_group" {
 }
 output "key_name" {
   value = "${var.key_name}"
+  }
