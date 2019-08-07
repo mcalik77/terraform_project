@@ -68,9 +68,8 @@ resource "aws_subnet" "private1c" {
 
    tags = {
       Name = "${var.Name}.private1c"
-      Env = "${var.Env}"	      Env = "${var.Env}"
-      Created_by = "${var.Created_by}"	      Created_by = "${var.Created_by}"
-      Dept = "${var.Dept}"	      Dept = "${var.Dept}"
-
-   }
+      Env = "${var.Env}"
+      Created_by = "${var.Created_by}"
+      Dept = "${var.Dept}"
+  }
 }
