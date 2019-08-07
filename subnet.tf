@@ -61,7 +61,7 @@ resource "aws_subnet" "private1a" {
 }
 
  // third private subnet
-}
+
 resource "aws_subnet" "private1c" {
   vpc_id     = "${aws_vpc.dev.id}"
   cidr_block = "10.0.6.0/24"
